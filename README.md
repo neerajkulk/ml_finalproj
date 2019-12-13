@@ -7,4 +7,4 @@ This repository contains the code for our final project for CSCI 5622. We primar
 The machine learning approches that we used were:
 * Convolutional Neural Network (CNN): We found this to be the most effective classification method. We used as inputs to the CNN the lightcurves in the 6 different passbands, which were stacked to create image-like objects. The implementation of our CNN is in `Neil_CNN.ipynb`.
 * Long Short Term Memory (LSTM): In addition to the CNN we also investigated using an LSTM layer in our network. We found that this did not significantly increase the performance compared to the CNN. This method is implemented in `CNN_LSTM.ipynb`. 
-* Support Vector Machine (SVM): Instead of using the lightcurves, we also explored using only the "metadata" which contains information such as location on the sky and distance. This method is implemented in `Abdul_SVM.ipynb`.
+* Support Vector Machine (SVM)/Decision Tree: Instead of using the lightcurves, we also explored using only the "metadata" which contains information such as location on the sky and distance. This method is implemented in `Abdul_SVM.ipynb`.
